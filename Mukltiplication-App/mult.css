@@ -1,0 +1,82 @@
+body{
+  background-color:rgb(34, 121, 89);
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#container{
+  height: 300px;
+  padding: 5px 10px;
+  width: 500px;
+  background-color:#fff;
+  border: 5px solid lightgray;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.input #inputt{
+  border-radius: 10px;
+  width: 300px;
+  height: 28px;
+  border: 2px solid green;
+  margin-left: 5px;
+  padding-left: 10px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.input .submit{
+  background-color: green;
+  color: #fff;
+  border: 0.5px;
+  height: 30px;
+}
+
+.input .next{
+  background-color: red;
+  color: #fff;
+  border: 0.5px solid #c1aeae;
+  height: 30px;
+}
+
+/* .input .score{
+  align-items: right;
+  justify-content: right;
+} */
+
+#inputt[placeholder]{
+  font: bold 100 15px 2px sans-serif;
+  letter-spacing: 5.5px;
+  color: rgb(94, 94, 94);
+}
+
+#container .score{
+  display:flex;
+  justify-content: left;
+  /* align-items: right; */
+  padding-right: 70px;
+}
+
+#container .num, h2{
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+}
+
+#container .footer-sec{
+  padding: 2px 0px;
+  background-color: rgb(54, 128, 54);
+}
+#container h3{
+  color: rgb(131, 126, 126);
+  font: bold;
+}
+
+.display-answer{
+  display: none;
+}

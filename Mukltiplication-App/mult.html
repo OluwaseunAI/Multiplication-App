@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Multiplication App</title>
+  <link rel="stylesheet" href="mult.css">
+</head>
+<body>
+  <div id="container">
+    <div class="input">
+      <span><h2 class="questn">What is 1 multiplied by 12?</h2></span>
+      <span>  <p class="num"> 1 x 12 =</p></span>
+      <input type="text" name="" id="inputt" placeholder="Enter your answer" autocomplete="off" autofocus>
+      <button class="submit">Submit Answer</button>
+      <button class="next">Next</button>
+    </div>
+    <span><p class="score">Your score: </p></span>
+    <div class="answer-remark">
+      <span> <h3 class="display-answer">Display correct answer: </h3> </span>
+    </div>
+    <div class="footer-sec">
+      <button><h3> Select options</h3></button>
+      <select>
+        <option class="qf">Quick fire</option>
+        <option class="normal">Normal</option>
+        <option class="3_8">Num range 3x - 8x</option>
+        <option class="5_8">Num range 5x - 8x</option>
+        <option class="3_9">Num range 3x - 9x</option>
+        <option class="3_!2">Num range 3x - 12x</option>
+        <option class="GMAT-GRE">GMAT/GRE</option>
+      </select>
+    </div>
+  </div>
+  <script src="mult.js"></script>
+</body>
+</html>
